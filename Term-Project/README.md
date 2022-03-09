@@ -14,7 +14,7 @@ If you would like to reproduce data collection and preprocessing, follow these s
 * Follow the steps in PreProcessing.ipynb to merge, filter, clean and reshape the data using the notebook, manual file system filtering, and running the included prep_flow.tfl file using [tableau prep] (https://www.tableau.com/products/prep)
 
 If you want to reproduce the default modeling and XAI framework, follow these steps:
-* Retrieve preprocessed.csv from the preprocessing steps above or included in the zip file.
+* Retrieve preprocessed.csv from the preprocessing steps above or included in the zip file. If you do not have access to the data, reach out to me at ksweet1@uw.edu
 * install jupyter notebook
 * Use pip to install each required package in Default Modeling and XAI.ipynb
 * Run Default Modeling and XAI.ipynb
