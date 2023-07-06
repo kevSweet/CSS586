@@ -9,7 +9,7 @@ ON a.vehicleModelYear = b.vehicleModelYear AND
     --ensures rows don't match with themselves since IDs are not ensured to be unique
     --also ensures that we remove permutation of same 2 rows e.g. match AB is not included with match BA
     a.interestRate <= b.interestRate AND
-    a.id != b.id
+    a.cmdId != b.cmdId
 WHERE ABS(a.vehicleValueAmount - b.vehicleValueAmount) < 0.1 * a.vehicleValueAmount AND
     ABS(a.obligorCreditScore - b.obligorCreditScore) < 8 AND
     ABS(a.paymentToIncomePercentage - b.paymentToIncomePercentage) < 0.1 * a.paymentToIncomePercentage AND

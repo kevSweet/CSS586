@@ -1,4 +1,4 @@
-CREATE TABLE SECURITIES (id INTEGER PRIMARY KEY AUTOINCREMENT,
+CREATE TABLE SECURITIES (cmdId int,
          assetNumber text, 
          originalLoanAmount real,
          originalLoanTerm int,     
